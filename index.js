@@ -29,9 +29,12 @@ for (let i1 = 0; i1 < pairs.length; i1++) {
             pairCount++;
         }
     }
+    
+    pairsObj[pair] = pairCount;
+    
     if (pairCount > maxPairCount) {
         maxPairCount = pairCount
-        pairsObj[pair] = pairCount;
+        
     }
 }
 
